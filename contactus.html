@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
+
+  <link rel="icon" type="image/png" href="Content/images/plane.png">
+  <title>Contact Us</title>
+  <!-- CSS Section -->
+  <link rel="stylesheet" href="Content/reset.css">
+  <link rel="stylesheet" href="Content/main.css">
+</head>
+<!-- Body Section -->
+<body>
+  <header class="col-12">
+    <!--NAV-->
+    <nav class="nav">
+      <ul class="clearFix" id="nav-bar">
+        <!--HOME-->
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <!--Products-->
+        <li>
+          <a href="products.html">Products</a>
+        </li>
+        <!--Services-->
+        <li>
+          <a href="services.html">Services</a>
+        </li>
+        <!--About Us-->
+        <li>
+          <a href="aboutus.html">About Us</a>
+        </li>
+        <!--Contact Us-->
+        <li class="active">
+          <a href="contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--MAIN SECTION-->
+  <main class="container">
+    <!--CONTENT-->
+    <div class="content col-5 contentColor-7">
+      <h1>Contact Info</h1>
+      <!-- Contact Info -->
+      <article class="article">
+        <address>
+                  Airplane Co.<br>
+                  123 Airplane Road<br>
+                  Airplane City, AirProvince<br>
+                  <tel href="(416) 555-5555">(416) 555-5555</tel><br>
+                  EMAIL: <a href="mailto:info@Airplane.com">info@Airplane.com</a><br>
+                  WWW: <a href="http://www.Airplane.com" target="_blank">www.Airplane.com</a>
+              </address>
+      </article>
+    </div>
+    <!-- Contact Form Section -->
+    <div class="content col-5 contentColor-6">
+      <h1>Contact Form</h1>
+      <h4>Help us get into contact with you about any questions!</h4>
+
+      <section class="formSection">
+        <form action="#" method="post" id="firstForm" class="forms">
+          <fieldset class="registration">
+            <h4><legend>Please Fill the Following</legend></h4>
+            <!-- First Name -->
+            <div class="row formGroup">
+              <label>First Name:</label>
+              <input type="text" id="firstName" name="firstName" class="formControl" placeholder="Enter Your First Name" required autofocus>
+            </div>
+            <!-- Last Name -->
+            <div class="row formGroup">
+              <label>Last Name:</label>
+              <input type="text" id="lastName" name="lastName" class="formControl" placeholder="Enter Your Last Name" required>
+            </div>
+            <!-- Email -->
+            <div class="row formGroup">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" class="formControl" placeholder="Enter Your email" required>
+            </div>
+            <div class="row formGroup">
+              <input type="submit" id="submitButton" name="submitButton" class="button" value="Send">
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+    </div>
+  </main>
+  <footer>
+    <h5>&copy;Copyright 2015</h5>
+  </footer>
+</body>
+
+</html>
